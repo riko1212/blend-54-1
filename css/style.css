@@ -8,60 +8,100 @@
 #4985FF; - accent color
 */
 :root {
-    --main-bg-color:#FFFFFF;
-    --secondary-bgc: #E0E0E0;
-    --main-title-color: #323232;
-    --secondary-title-color: #fff;
-    --main-text-color: #999999;
-    --secondary-text-color: #FFFFFF;
-    --accent-color: #4985FF;
+  --main-bg-color: #ffffff;
+  --secondary-bgc: #e0e0e0;
+  --main-title-color: #323232;
+  --secondary-title-color: #fff;
+  --main-text-color: #999999;
+  --secondary-text-color: #ffffff;
+  --accent-color: #4985ff;
 }
-p,h1,h2,h3,h4,h5,h6 {
-    margin: 0 ;
-    padding: 0;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .link {
-text-decoration: none;
+  text-decoration: none;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 body {
-   background-color: var(--main-bg-color);
-   font-family: 'Montserrat', sans-serif;
+  background-color: var(--main-bg-color);
+  font-family: "Montserrat", sans-serif;
 }
 .container {
-    width: 1140px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto ;
+  width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 .header-a {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.25;
-color: var(--secondary-text-color);
-padding-top: 40px;
-padding-bottom: 40px;
-display: inline-block;
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: inline-block;
 }
 .header {
-    background-color: grey;
-  
-
+  background-color: grey;
 }
 .header-list {
-    display: flex;
-    justify-content: flex-end ;
+  display: flex;
+  justify-content: flex-end;
 }
 .header-item {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 .header-item:first-child {
-    margin-left: 0 ;
+  margin-left: 0;
+}
+.hero {
+  padding-top: 220px;
+  padding-bottom: 335px;
+
+  background-color: var(--main-title-color);
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--secondary-title-color);
+  margin-bottom: 20px;
+}
+.hero-text {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.3333;
+  text-align: center;
+  color: var(--secondary-title-color);
+  max-width: 829px;
+  margin: 0 auto 50px;
+}
+.hero-btn {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--secondary-title-color);
+  background-color: var(--accent-color);
+  min-width: 200px;
+  height: 45px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  margin: 0 auto;
 }
