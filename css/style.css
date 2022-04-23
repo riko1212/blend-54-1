@@ -244,13 +244,15 @@ body {
 
 .works-list {
   display: flex;
+  flex-wrap: wrap;
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 85px;
+  gap: 30px;
 }
 
-.works-item:not(:last-child) {
+/* .works-item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .works-item {
   width: 350px;
